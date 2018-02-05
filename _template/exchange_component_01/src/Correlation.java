@@ -33,7 +33,7 @@ public class Correlation {
      */
 
     /* Calculates Spearman's rank correlation coefficient, */
-    private static Double spearman(double[] X, double[] Y) {
+    public static Double spearman(double[] X, double[] Y) {
         /* Error check */
         if (X == null || Y == null || X.length != Y.length) {
             return null;
